@@ -71,12 +71,13 @@ img {
   | Header section
   |============================
 */
+.header {
+    border-bottom: 1px solid var(--header-line);
+}
 /* Логотип */
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--header-line);
-
 }
 .logo {
     font-family: 'Raleway', sans-serif;
