@@ -1,0 +1,136 @@
+:root {
+    /* colors */
+    --brand-color-white: #FFFFFF;
+    --brand-color-dark: #2E2F42;
+    --brand-color-grey: #F4F4FD;
+    --brand-color-accent: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --text-color: #434455;
+    --line-color: #E7E9FC;
+
+    /* fonts */
+    --text-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--brand-color-white);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* logo */
+.logo {
+    font-family: var(--logo-font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-accent);
+    text-transform: uppercase;
+}
+.logo:hover,
+.logo:focus {
+    color: var(--pressed-state-color);
+}
+.logo-dark {
+    color: var(--brand-color-dark);
+}
+.logo-light {
+    color: var(--brand-color-grey);
+}
+
+/*** header ***/
+/* navigation */
+.nav-link {
+    color: var(--brand-color-dark);
+    font-weight: 500;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--pressed-state-color);
+}
+
+/* contacts */
+.contacts {
+    font-style: normal;
+}
+.contact-link {
+    color: inherit;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--pressed-state-color);
+}
+
+/*** hero section ***/
+.hero {
+    background-color: var(--brand-color-dark);
+}
+.hero-title {
+    color: var(--brand-color-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.hero-btn {
+    background-color: var(--brand-color-accent);
+    color: var(--brand-color-white);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    line-height: inherit;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--pressed-state-color);
+}
+
+/* section header h2 */
+.section-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--brand-color-dark);
+    letter-spacing: 0.02em;
+}
+
+/* card header h3 */
+.card-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--brand-color-dark);
+    letter-spacing: 0.02em;
+}
+/* .card-paragraf {
+} */
+
+.team-section {
+    background-color: var(--brand-color-grey);
+}
+.team-card {
+    background-color: var(--brand-color-white);
+}
+
+.footer {
+    background-color: var(--brand-color-dark);
+}
+.footer-text {
+    color: var(--brand-color-grey)
+}
