@@ -100,10 +100,10 @@ a {
 .card-text-wrap {
     padding: 32px 0;
 }
-.card-width-if-three {
+.card-width-if-four {
     width: calc((100% - 3 * 24px) / 4);
 }
-.card-width-if-four {
+.card-width-if-three {
     width: calc((100% - 2 * 24px) / 3);
 }
 /* card header h3 */
@@ -266,7 +266,7 @@ a {
     padding-bottom: 100px;
 }
 .footer .logo {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
 }
 .footer-text {
